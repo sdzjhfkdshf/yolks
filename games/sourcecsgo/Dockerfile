@@ -12,7 +12,7 @@ RUN dpkg --add-architecture i386 \
         tar curl gcc g++ lib32gcc-s1 libgcc1 \
         libcurl4-gnutls-dev:i386 libssl3:i386 libcurl4:i386 \
         lib32tinfo6 libtinfo6:i386 lib32z1 lib32stdc++6 \
-        libncurses5:i386 libcurl3-gnutls:i386 libsdl2-2.0-0:i386 \
+        libncurses6:i386 libcurl3-gnutls:i386 libsdl2-2.0-0:i386 \
         iproute2 gdb libsdl1.2debian libfontconfig1 \
         telnet net-tools netcat-traditional tzdata \
         bash ca-certificates locales \

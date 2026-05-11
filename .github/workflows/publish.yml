@@ -23,4 +23,4 @@ jobs:
           context: ./games/sourcecsgo
           file: ./games/sourcecsgo/Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/${{ github.repository }}:sourcecsgo
