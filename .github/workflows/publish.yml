@@ -20,6 +20,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ./games/sourcecsgo
+          file: ./games/sourcecsgo/Dockerfile
           push: true
           tags: ghcr.io/${{ github.repository }}:latest
