@@ -1,4 +1,4 @@
-name: build-yolk12
+name: build-yolkgaben
 on:
   push:
     branches:
